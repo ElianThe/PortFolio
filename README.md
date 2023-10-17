@@ -18,11 +18,11 @@ Mon objectif personnel est de me développer sous tous mes aspects. Je m'expliqu
 
 ## Objectif académique
 
-Je souhaite poursuivre mon BUT informatique à l'IUT Charlemagne à Nancy jusqu'à la fin. Suite à ce diplôme, je souhaite intégrer une école supérieur.
+Je souhaite poursuivre mon BUT informatique à l'IUT Charlemagne à Nancy jusqu'à la fin. Suite à ce diplôme, je souhaite intégrer une école d'ingénieur.
 
 ## Compétence académique
 
-Le BUT Informatique m'a appris à apprendre plusieurs langages de programmation, tels que SQL Developer pour les bases de données, Java pour l'approche algorithmique, quelques notions de C pour comprendre le langage bas niveau, CSS, HTML, JavaFX  pour le développement interface homme-machine. 
+Le BUT Informatique m'a appris à apprendre plusieurs langages de programmation, tels que le PHP avec Slim et Eloquent comme framework pour le back-end, J'ai aussi  .SQL Developer pour les bases de données, Java pour l'approche algorithmique, quelques notions de C pour comprendre le langage bas niveau, CSS, HTML, JavaFX  pour le développement interface homme-machine. 
 
 De plus, cette formation m'a appris à travailler avec d'autres sur des projets que ce soit des projets informatiques ou d'autres projets (organiser un festival, créer une affiche pour la vente d'un meuble ...). Mais aussi de m'exprimer en public en faisant des exposés devant la classe en anglais ou en français.
 
