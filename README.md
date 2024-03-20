@@ -1,3 +1,12 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 # PortFolio
 
 ## Centre d'intérêt
@@ -6,7 +15,7 @@ Comme depuis petit je suis quelqu'un qui aime le sport, je suis avant tout passi
 Mais encore, j'adore cuisiner toutes sortes de chose. Je le fais principalement car j'aime bien manger. Je trouve ça important d'avoir une bonne hygiène de vie.
 Une de mes passions est aussi de filmer et de faire du montage. Je fais beaucoup de vidéo de skate ce qui m'a permis de devenir bon en montage.
 Je suis aussi passionné par le voyage. En effet, avant mon BUT Informatique, je suis parti à Berlin pour améliorer mon anglais et mon allemand. Je suis donc plutôt à l'aise à l'oral en anglais comme en allemand.
-Enfin, depuis le début de mes études, je commence à avoir une passion ardente pour l'informatique. En effet, l'informatique est un métier qui demande de la réflexion et j'aime me creuser la tête pour trouver la meilleure solution comme aux échecs. 
+Enfin, depuis le début de mes études, je commence à avoir une passion ardente pour l'informatique. En effet, l'informatique est un métier qui demande de la réflexion et j'aime me creuser la tête pour trouver la meilleure solution comme aux échecs.
 
 ## Mon objectif personnel
 
@@ -18,13 +27,13 @@ Je souhaite poursuivre mon BUT informatique à l'IUT Charlemagne à Nancy jusqu'
 
 ## Compétence académique
 
-Le BUT Informatique m'a appris à apprendre plusieurs langages de programmation, tels que le PHP avec Slim et Eloquent comme framework pour le back-end, J'ai aussi programmé en JavaScript pour le côté front-end. J'ai beaucoup fait de SQL Developer pour les bases de données, Java pour l'approche algorithmique, CSS, HTML, JavaFX  pour le développement interface homme-machine. 
+Le BUT Informatique m'a appris à apprendre plusieurs langages de programmation, tels que le PHP avec Slim et Eloquent comme framework pour le back-end, J'ai aussi programmé en JavaScript pour le côté front-end. J'ai beaucoup fait de SQL Developer pour les bases de données, Java pour l'approche algorithmique, CSS, HTML, JavaFX  pour le développement interface homme-machine.
 
 De plus, cette formation m'a appris à travailler avec d'autres sur des projets que ce soit des projets informatiques ou d'autres projets (organiser un festival, créer une affiche pour la vente d'un meuble ...). Mais aussi de m'exprimer en public en faisant des exposés devant la classe en anglais ou en français.
 
 ## Compétence professionnelle
 
-Pendant ma première S, j'ai travaillé pendant 1 ans à McDonald's, ce qui m'a permis de découvrir le monde professionnel. De plus, pour subvenir à mon voyage à Berlin, j'ai travaillé dans un restaurant. 
+Pendant ma première S, j'ai travaillé pendant 1 ans à McDonald's, ce qui m'a permis de découvrir le monde professionnel. De plus, pour subvenir à mon voyage à Berlin, j'ai travaillé dans un restaurant.
 Actuellement, je poursuis mon parcours en alternance au sein de l'entreprise Beegift.
 
 ## Historique de formation
