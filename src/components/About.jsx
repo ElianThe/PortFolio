@@ -17,7 +17,7 @@ const ServiceCard = ({index, title, icon}) => {
                 <div
                     option={{
                         max: 45,
-                        scale:1,
+                        scale: 0.5,
                         speed: 450
                     }}
                     className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
@@ -34,25 +34,23 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
     return (
         <>
-            <motion.dev variants={textVariant()}>
+            <motion.div variants={textVariant()}>
                 <p className={styles.sectionSubText}>Introduction</p>
-              <h2 className={styles.sectionHeadText}>Overview.</h2>
-            </motion.dev>
-          <motion.p
-              variants={fadeIn("", 0.1, 1)}
-              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-          >
-            I'm a skilled software developer with experience in TypeScript and
-            JavaScript, and expertise in frameworks like React, Node.js, and
-            Three.js. I'm a quick learner and collaborate closely with clients to
-            create efficient, scalable, and user-friendly solutions that solve
-            real-world problems. Let's work together to bring your ideas to life!
-          </motion.p>
-          <div className="mt-20 flex flex-wrap gap-10">
-            {services.map((service, index) => (
-                <ServiceCard key={service.title} index={index} {...service} />
-            ))}
-          </div>
+                <h2 className={styles.sectionHeadText}>Vue d'ensemble</h2>
+            </motion.div>
+            <motion.p
+                variants={fadeIn("", "",0.1, 1)}
+                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            >
+                Je suis étudiant en fin de troisième année en développement web et mobile à l'IUT Nancy Charlemagne.
+                Au cours de mes études, j'ai appris à utiliser des frameworks en back-end tel que Slim en PHP, comme en front-end tel que VueJS.
+                Je suis passionné par l'informatique et je suis impatient de rentrer dans la vie professionnelle pour mettre mes compétences au service de projets professionnels.
+            </motion.p>
+            <div className="mt-20 flex flex-wrap gap-10">
+                {services.map((service, index) => (
+                    <ServiceCard key={service.title} index={index} {...service} />
+                ))}
+            </div>
         </>
     )
 }

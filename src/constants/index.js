@@ -1,38 +1,35 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
+    mcdonalds,
+    cook,
     carrent,
     jobit,
     tripguide,
     threejs,
+    flutter,
+    perceptions
+
 } from "../assets";
 
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "À propos",
     },
     {
         id: "work",
-        title: "Work",
+        title: "Expérience",
     },
     {
         id: "contact",
@@ -42,20 +39,16 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Développeur frontend",
         icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
+        title: "Développeur backend",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Développeur mobile",
+        icon: flutter,
     },
 ];
 
@@ -69,36 +62,16 @@ const technologies = [
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name : "php",
+        icon: backend,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: 'vueJS',
+        icon: web
     },
     {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
+        name: 'flutter',
+        icon: flutter
     },
     {
         name: "git",
@@ -112,59 +85,62 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Three JS",
+        icon: threejs,
+    },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Employé polyvalent",
+        company_name: "McDonald's",
+        icon: mcdonalds,
+        iconBg: "#DA291C",
+        date: "Juillet 2018 - Juin 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Je travaillais au mcDonald's pendant ma première année de S au lycée.",
+            "Je devais préparer les commandes en cuisine, nettoyer les locaux, à travailler en équipe et à être autonome.",
+            "Ce premier emploie m'a appris le savoir-faire en entreprise.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Cuisinier",
+        company_name: "Bim bim bap",
+        icon: cook,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Janvier 2021 - Juin 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Je travaillais en cuisine mais aussi au comptoir dans un restaurant de cuisine coréenne à Berlin.",
+            "Le plus gros défi était de communiquer en anglais et en allemand avec mes collègues ainsi qu'avec les clients.",
+            ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Developpeur web",
+        company_name: "Perceptions",
+        icon: perceptions,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Février 2023 - Avril 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "J'ai occupé le poste de développeur web au sein d'une entreprise spécialisée dans les formations visant à améliorer le savoir-être professionnel.",
+            "J'ai travaillé sur le site web de l'entreprise, en utilisant les technologies HTML, CSS, PHP avec Slim et MySQL.",
+            "Le principal défi résidait dans le fait que je travaillais en autonomie, étant donné qu'il n'y avait pas d'autres développeurs au sein de l'entreprise. Par conséquent, j'ai dû me débrouiller seul pour résoudre les problèmes techniques.",
         ],
     },
 ];
@@ -198,25 +174,25 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "NetRadio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Net Radio est une application de radio qui permet principalement d’écouter la radio en direct. La diffusion en direct est organisée selon un calendrier qu’il est possible de consulter, et qui détaille les créneaux réservés aux différentes émissions. L’application permet également d’écouter des épisodes qui ont déjà été diffusés. ",
         tags: [
             {
-                name: "react",
+                name: "VueJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "restapi",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/ElianThe/NetRadio",
     },
     {
         name: "Job IT",
