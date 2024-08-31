@@ -10,15 +10,11 @@ import {
     git,
     figma,
     docker,
-    meta,
     mcdonalds,
     cook,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    flutter,
-    perceptions
+    perceptions,
+    pmb, expo, backendFastLearning, netradio, frontfastlearning
 
 } from "../assets";
 
@@ -48,7 +44,7 @@ const services = [
     },
     {
         title: "Développeur mobile",
-        icon: flutter,
+        icon: expo,
     },
 ];
 
@@ -62,16 +58,12 @@ const technologies = [
         icon: css,
     },
     {
-        name : "php",
+        name: "php",
         icon: backend,
     },
     {
         name: 'vueJS',
         icon: web
-    },
-    {
-        name: 'flutter',
-        icon: flutter
     },
     {
         name: "git",
@@ -105,6 +97,10 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
+    {
+        name: "Expo",
+        icon: expo
+    }
 ];
 
 const experiences = [
@@ -129,7 +125,7 @@ const experiences = [
         points: [
             "Je travaillais en cuisine mais aussi au comptoir dans un restaurant de cuisine coréenne à Berlin.",
             "Le plus gros défi était de communiquer en anglais et en allemand avec mes collègues ainsi qu'avec les clients.",
-            ],
+        ],
     },
     {
         title: "Developpeur web",
@@ -141,6 +137,18 @@ const experiences = [
             "J'ai occupé le poste de développeur web au sein d'une entreprise spécialisée dans les formations visant à améliorer le savoir-être professionnel.",
             "J'ai travaillé sur le site web de l'entreprise, en utilisant les technologies HTML, CSS, PHP avec Slim et MySQL.",
             "Le principal défi résidait dans le fait que je travaillais en autonomie, étant donné qu'il n'y avait pas d'autres développeurs au sein de l'entreprise. Par conséquent, j'ai dû me débrouiller seul pour résoudre les problèmes techniques.",
+        ],
+    },
+    {
+        title: "Developpeur web",
+        company_name: "PMB Software",
+        icon: pmb,
+        iconBg: "#383E56",
+        date: "Mai 2024 - Juillet 2024",
+        points: [
+            "J'ai occupé le poste de développeur fullstack au sein d'une société spécialisée dans le développement de logiciels métiers pour le bâtiment.",
+            "J'ai contribué au développement et à l'amélioration du back-office de leur application principale, Constéo, en utilisant un ensemble de technologies incluant HTML, CSS, PHP (avec le framework Laravel), Blade, JavaScript, et MySQL.",
+            "Mes missions principales consistaient à créer des fonctionnalités visant à faciliter le travail des techniciens support. Parmi celles-ci, j'ai développé une interface permettant de visualiser l'ensemble des entreprises utilisatrices du logiciel, de modifier directement les informations dans la base de données, et de gérer la facturation des entreprises. Cette dernière tâche impliquait l'intégration de l'application avec Dolibarr, un ERP, afin d'automatiser et de simplifier le processus de facturation."
         ],
     },
 ];
@@ -191,16 +199,16 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: netradio,
         source_code_link: "https://github.com/ElianThe/NetRadio",
     },
     {
-        name: "Job IT",
+        name: "Back-end Fast Learning",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Fast Learning est une application qui permet d'apprendre des mots, du vocabulaire sur le long terme. L'application back-end est déjà en ligne et on peut auss accéder au github. On retrouve en ligne la logique de l'application. Voici l'url pour accéder à mon api : https://api-fast-learning.fr/api/documentation",
         tags: [
             {
-                name: "react",
+                name: "Laravel",
                 color: "blue-text-gradient",
             },
             {
@@ -208,24 +216,24 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "swagger",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: backendFastLearning,
+        source_code_link: "https://github.com/ElianThe/api-fastlearning",
     },
     {
-        name: "Trip Guide",
+        name: "L'application mobile de Fast Learning",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Et voilà le github de l'application mobile de fast-learning fait en react native avec le framework Expo.",
         tags: [
             {
-                name: "nextjs",
+                name: "Expo",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "TypeScript",
                 color: "green-text-gradient",
             },
             {
@@ -233,9 +241,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: frontfastlearning,
+        source_code_link: "https://github.com/ElianThe/fastLearning_front",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {services, technologies, experiences, testimonials, projects};

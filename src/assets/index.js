@@ -1,7 +1,5 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -17,43 +15,40 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import perceptions from "./company/perceptions.jpg";
+import expo from "./tech/expo.png"
 
-
-import meta from "./company/meta.png";
 import mcdonalds from "./company/mcdonalds.png";
-import cook from "./company/cook.png"
+import cook from "./company/cook.png";
+import perceptions from "./company/perceptions.jpg";
+import pmb from './company/pmb.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import flutter from "./flutter.png";
+import netradio from './NetRadio.png';
+import backendFastLearning from "./backend_fastlearning.png";
+import frontfastlearning from './front_fastlearning.png';
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
-  meta,
-  perceptions,
-  mcdonalds,
-  cook,
-  carrent,
-  jobit,
-  tripguide,
-  flutter
+    logo,
+    backend,
+    web,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    nodejs,
+    reactjs,
+    tailwind,
+    threejs,
+    perceptions,
+    mcdonalds,
+    cook,
+    backendFastLearning,
+    pmb,
+    expo,
+    netradio,
+    frontfastlearning
 };
