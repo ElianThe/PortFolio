@@ -105,15 +105,27 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Employé polyvalent",
-        company_name: "McDonald's",
-        icon: mcdonalds,
-        iconBg: "#DA291C",
-        date: "Juillet 2018 - Juin 2019",
+        title: "Développeur Web",
+        company_name: "PMB Software",
+        icon: pmb,
+        iconBg: "#383E56",
+        date: "Mai 2024 - Juillet 2024",
         points: [
-            "Je travaillais au mcDonald's pendant ma première année de S au lycée.",
-            "Je devais préparer les commandes en cuisine, nettoyer les locaux, à travailler en équipe et à être autonome.",
-            "Ce premier emploie m'a appris le savoir-faire en entreprise.",
+            "J'ai occupé le poste de développeur fullstack au sein d'une société spécialisée dans le développement de logiciels métiers pour le bâtiment.",
+            "J'ai contribué au développement et à l'amélioration du back-office de leur application principale, Constéo, en utilisant un ensemble de technologies incluant HTML, CSS, PHP (avec le framework Laravel), Blade, JavaScript, et MySQL.",
+            "Mes missions principales consistaient à créer des fonctionnalités visant à faciliter le travail des techniciens support. Parmi celles-ci, j'ai développé une interface permettant de visualiser l'ensemble des entreprises utilisatrices du logiciel, de modifier directement les informations dans la base de données, et de gérer la facturation des entreprises. Cette dernière tâche impliquait l'intégration de l'application avec Dolibarr, un ERP, afin de simplifier le processus de facturation."
+        ],
+    },
+    {
+        title: "Développeur Web",
+        company_name: "Perceptions",
+        icon: perceptions,
+        iconBg: "#383E56",
+        date: "Février 2023 - Avril 2023",
+        points: [
+            "J'ai occupé le poste de développeur web au sein d'une entreprise spécialisée dans les formations visant à améliorer le savoir-être professionnel.",
+            "Dans ce rôle, j'ai été responsable du développement du site web de l'entreprise, en utilisant un ensemble de technologies comprenant HTML, CSS, PHP (avec le framework Slim), et MySQL.",
+            "Le principal défi de cette expérience résidait dans le fait que j'étais le seul développeur au sein de l'entreprise, ce qui m'a conduit à travailler en totale autonomie. J'ai ainsi dû gérer l'ensemble des aspects techniques du projet, de la conception à la résolution des problèmes sans appui technique interne.",
         ],
     },
     {
@@ -123,32 +135,21 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Janvier 2021 - Juin 2021",
         points: [
-            "Je travaillais en cuisine mais aussi au comptoir dans un restaurant de cuisine coréenne à Berlin.",
-            "Le plus gros défi était de communiquer en anglais et en allemand avec mes collègues ainsi qu'avec les clients.",
+            "J'ai travaillé à la fois en cuisine et au comptoir dans un restaurant de cuisine coréenne à Berlin.",
+            "Mon rôle consistait non seulement à préparer des plats, mais aussi à interagir avec les clients pour prendre leurs commandes.",
+            "Le principal défi de cette expérience résidait dans la communication, car j'étais amené à échanger en anglais et en allemand avec mes collègues ainsi qu'avec les clients.",
         ],
     },
     {
-        title: "Developpeur web",
-        company_name: "Perceptions",
-        icon: perceptions,
-        iconBg: "#383E56",
-        date: "Février 2023 - Avril 2023",
+        title: "Équipier polyvalent",
+        company_name: "McDonald's",
+        icon: mcdonalds,
+        iconBg: "#DA291C",
+        date: "Juillet 2018 - Juin 2019",
         points: [
-            "J'ai occupé le poste de développeur web au sein d'une entreprise spécialisée dans les formations visant à améliorer le savoir-être professionnel.",
-            "J'ai travaillé sur le site web de l'entreprise, en utilisant les technologies HTML, CSS, PHP avec Slim et MySQL.",
-            "Le principal défi résidait dans le fait que je travaillais en autonomie, étant donné qu'il n'y avait pas d'autres développeurs au sein de l'entreprise. Par conséquent, j'ai dû me débrouiller seul pour résoudre les problèmes techniques.",
-        ],
-    },
-    {
-        title: "Developpeur web",
-        company_name: "PMB Software",
-        icon: pmb,
-        iconBg: "#383E56",
-        date: "Mai 2024 - Juillet 2024",
-        points: [
-            "J'ai occupé le poste de développeur fullstack au sein d'une société spécialisée dans le développement de logiciels métiers pour le bâtiment.",
-            "J'ai contribué au développement et à l'amélioration du back-office de leur application principale, Constéo, en utilisant un ensemble de technologies incluant HTML, CSS, PHP (avec le framework Laravel), Blade, JavaScript, et MySQL.",
-            "Mes missions principales consistaient à créer des fonctionnalités visant à faciliter le travail des techniciens support. Parmi celles-ci, j'ai développé une interface permettant de visualiser l'ensemble des entreprises utilisatrices du logiciel, de modifier directement les informations dans la base de données, et de gérer la facturation des entreprises. Cette dernière tâche impliquait l'intégration de l'application avec Dolibarr, un ERP, afin d'automatiser et de simplifier le processus de facturation."
+            "En classe de Première S, j'ai travaillé chez McDonald's en tant qu'équipier polyvalent durant toute l'année.",
+            "Mes responsabilités incluaient les préparations des commandes en cuisine, le nettoyage des locaux ainsi que le travail en équipe.",
+            "Cette première expérience professionnelle m'a permis d'être plus autonome. Elle m'a également initié aux bonnes pratiques du savoir-faire en entreprise.",
         ],
     },
 ];
@@ -205,7 +206,7 @@ const projects = [
     {
         name: "Back-end Fast Learning",
         description:
-            "Fast Learning est une application qui permet d'apprendre des mots, du vocabulaire sur le long terme. L'application back-end est déjà en ligne et on peut auss accéder au github. On retrouve en ligne la logique de l'application. Voici l'url pour accéder à mon api : https://api-fast-learning.fr/api/documentation",
+            "Fast Learning est une application conçue pour l'apprentissage durable de mots et de vocabulaire, en s'inspirant du principe des cartes-mémoire. L'application back-end est déjà déployée en ligne, et son code source est accessible sur GitHub. La logique de l'application est également disponible en ligne. Vous pouvez consulter la documentation de mon API à l'adresse suivante : https://api-fast-learning.fr/api/documentation",
         tags: [
             {
                 name: "Laravel",
@@ -226,10 +227,10 @@ const projects = [
     {
         name: "L'application mobile de Fast Learning",
         description:
-            "Et voilà le github de l'application mobile de fast-learning fait en react native avec le framework Expo.",
+            "Vous pouvez également accéder au code source de l'application mobile Fast Learning, développée en React Native avec le framework Expo, sur GitHub. Elle est encore en développement.",
         tags: [
             {
-                name: "Expo",
+                name: "Expo | React Native",
                 color: "blue-text-gradient",
             },
             {

@@ -42,8 +42,8 @@ const About = () => {
                 variants={fadeIn("", "",0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                J'ai fini mon BUT informatique spécialité développement web et mobile cette année à l'IUT Nancy Charlemagne.
-                Au cours de mes études, j'ai appris à utiliser des frameworks en back-end tel que Laravel en PHP, comme en front-end tel que VueJS et React Native en développement mobile.
+                J'ai récemment obtenu mon BUT Informatique, avec une spécialisation en développement web et mobile, à l'IUT Nancy Charlemagne.
+                Au cours de ma formation, j'ai acquis des compétences en utilisant des frameworks back-end tels que Laravel en PHP, ainsi qu'en front-end avec Vue.js et React Native pour le développement mobile.
                 Je suis passionné par l'informatique et je suis impatient de rentrer dans la vie professionnelle pour mettre mes compétences au service de projets professionnels.
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10">
