@@ -46,11 +46,11 @@ const About = () => {
                 Au cours de ma formation, j'ai acquis des compétences en utilisant des frameworks back-end tels que Laravel en PHP, ainsi qu'en front-end avec Vue.js et React Native pour le développement mobile.
                 Je suis passionné par l'informatique et je suis impatient de rentrer dans la vie professionnelle pour mettre mes compétences au service de projets professionnels.
             </motion.p>
-            <div className="mt-20 flex flex-wrap gap-10">
+            {/*<div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
-            </div>
+            </div>*/}
         </>
     )
 }

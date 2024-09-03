@@ -147,9 +147,9 @@ const experiences = [
         iconBg: "#DA291C",
         date: "Juillet 2018 - Juin 2019",
         points: [
-            "En classe de Première S, j'ai travaillé chez McDonald's en tant qu'équipier polyvalent durant toute l'année.",
+            "En classe de Première S, j'ai travaillé 12h par semaine chez McDonald's en tant qu'équipier polyvalent durant toute l'année.",
             "Mes responsabilités incluaient les préparations des commandes en cuisine, le nettoyage des locaux ainsi que le travail en équipe.",
-            "Cette première expérience professionnelle m'a permis d'être plus autonome. Elle m'a également initié aux bonnes pratiques du savoir-faire en entreprise.",
+            "Cette première expérience professionnelle m'a permis d'être plus autonome. Elle m'a également initié aux bonnes pratiques du savoir-être en entreprise.",
         ],
     },
 ];
@@ -183,30 +183,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "NetRadio",
-        description:
-            "Net Radio est une application de radio qui permet principalement d’écouter la radio en direct. La diffusion en direct est organisée selon un calendrier qu’il est possible de consulter, et qui détaille les créneaux réservés aux différentes émissions. L’application permet également d’écouter des épisodes qui ont déjà été diffusés. ",
-        tags: [
-            {
-                name: "VueJS",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "bootstrap",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: netradio,
-        source_code_link: "https://github.com/ElianThe/NetRadio",
-    },
-    {
         name: "Back-end Fast Learning",
         description:
-            "Fast Learning est une application conçue pour l'apprentissage durable de mots et de vocabulaire, en s'inspirant du principe des cartes-mémoire. L'application back-end est déjà déployée en ligne, et son code source est accessible sur GitHub. La logique de l'application est également disponible en ligne. Vous pouvez consulter la documentation de mon API à l'adresse suivante : https://api-fast-learning.fr/api/documentation",
+            "Fast Learning est une application conçue pour l'apprentissage durable de mots et de vocabulaire, en s'inspirant du principe des cartes-mémoire. L'application back-end est déjà déployée en ligne, et son code source est accessible sur GitHub. La logique de l'application est également disponible en ligne.",
         tags: [
             {
                 name: "Laravel",
@@ -222,7 +201,8 @@ const projects = [
             },
         ],
         image: backendFastLearning,
-        source_code_link: "https://github.com/ElianThe/api-fastlearning",
+        source_code_link: "https://api-fast-learning.fr/api/documentation",
+        second_link : "https://github.com/ElianThe/api-fastlearning"
     },
     {
         name: "L'application mobile de Fast Learning",
@@ -244,6 +224,27 @@ const projects = [
         ],
         image: frontfastlearning,
         source_code_link: "https://github.com/ElianThe/fastLearning_front",
+    },
+    {
+        name: "NetRadio",
+        description:
+            "Net Radio est une application de radio qui permet principalement d’écouter la radio en direct. La diffusion en direct est organisée selon un calendrier qu’il est possible de consulter, et qui détaille les créneaux réservés aux différentes émissions. L’application permet également d’écouter des épisodes qui ont déjà été diffusés. ",
+        tags: [
+            {
+                name: "VueJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: netradio,
+        source_code_link: "https://github.com/ElianThe/NetRadio",
     },
 ];
 
