@@ -14,7 +14,7 @@ import {
     cook,
     threejs,
     perceptions,
-    pmb, expo, backendFastLearning, netradio, frontfastlearning
+    pmb, expo, backendFastLearning, netradio, frontfastlearning, iconFastlearning
 
 } from "../assets";
 
@@ -105,6 +105,19 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Développeur d'Application Mobile",
+        company_name: "Projet Personnel - Fast Learning",
+        icon: iconFastlearning,
+        iconBg: "#E6DEDD",
+        date: "Août 2024 - Présent",
+        points: [
+            "J'ai créé et développé ma propre application mobile, Fast Learning, un outil d'apprentissage utilisant la méthode des répétitions espacées pour favoriser la mémorisation durable.",
+            "L'application permet aux utilisateurs de consacrer 10 minutes par jour à l'apprentissage grâce à des cartes mémoire interactives, optimisant ainsi l'efficacité et la rétention des connaissances.",
+            "J'ai donc commencé par la conception de l'ensemble des fonctionnalités et des maquettes de l'application, suivi du développement du front-end mobile ainsi que de l'API qui alimente l'application.",
+            "Le code source de l'application est accessible dans la section MES PROJETS pour vous permettre de mieux comprendre les technologies et les méthodes de développement utilisées."
+        ],
+    },
+    {
         title: "Développeur Web",
         company_name: "PMB Software",
         icon: pmb,
@@ -185,7 +198,7 @@ const projects = [
     {
         name: "Back-end Fast Learning",
         description:
-            "Fast Learning est une application conçue pour l'apprentissage durable de mots et de vocabulaire, en s'inspirant du principe des cartes-mémoire. L'application back-end est déjà déployée en ligne, et son code source est accessible sur GitHub. La logique de l'application est également disponible en ligne.",
+            "Développée en Laravel avec l’ORM Eloquent, cette API permet une gestion des données. Elle est déployée dans un environnement Docker pour simplifier le déploiement et la maintenance. J’ai utilisé Swagger pour offrir une documentation simple et claire, essentielle pour les développeurs et les futures évolutions du projet.",
         tags: [
             {
                 name: "Laravel",
@@ -199,6 +212,10 @@ const projects = [
                 name: "swagger",
                 color: "pink-text-gradient",
             },
+            {
+                name: "docker",
+                color: "blue-text-gradient"
+            }
         ],
         image: backendFastLearning,
         source_code_link: "https://api-fast-learning.fr/api/documentation",
@@ -207,7 +224,7 @@ const projects = [
     {
         name: "L'application mobile de Fast Learning",
         description:
-            "Vous pouvez également accéder au code source de l'application mobile Fast Learning, développée en React Native avec le framework Expo, sur GitHub. Elle est encore en développement.",
+        "L’application mobile Fast Learning est développée en React Native avec le framework Expo. Elle est déjà disponible sur l'App Store. Pour garantir la qualité et la maintenabilité du code, j'ai intégré ESLint et Prettier, assurant une base de code propre et cohérente. TypeScript est également utilisé pour renforcer la lisibilité et la fiabilité du code",
         tags: [
             {
                 name: "Expo | React Native",
@@ -218,7 +235,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "eslint | prettier",
                 color: "pink-text-gradient",
             },
         ],

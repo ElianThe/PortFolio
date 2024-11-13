@@ -21,10 +21,11 @@ import mcdonalds from "./company/mcdonalds.png";
 import cook from "./company/cook.png";
 import perceptions from "./company/perceptions.jpg";
 import pmb from './company/pmb.png';
+import iconFastlearning from "./company/icon_fastlearning.png";
 
 import netradio from './NetRadio.png';
 import backendFastLearning from "./backend_fastlearning.png";
-import frontfastlearning from './front_fastlearning.png';
+import frontfastlearning from './front_fastlearning.jpg';
 
 export {
     logo,
@@ -50,5 +51,6 @@ export {
     pmb,
     expo,
     netradio,
-    frontfastlearning
+    frontfastlearning,
+    iconFastlearning
 };
